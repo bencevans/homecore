@@ -1,0 +1,33 @@
+{
+  "name": "@bencevans/homecore",
+  "version": "0.0.0",
+  "description": "Hypercore archive facility",
+  "main": "ts-node src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "homecore": "src/homecore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/homecore.git"
+  },
+  "keywords": [
+    "hypercore",
+    "archive"
+  ],
+  "author": "Ben Evans <ben@bluechimp.io> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/homecore/issues"
+  },
+  "homepage": "https://github.com/bencevans/homecore#readme",
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "hypercore-archiver": "^4.6.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
