@@ -4,7 +4,7 @@
   "description": "Hypercore archive facility",
   "main": "ts-node src/server.ts",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "bin/homecore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
