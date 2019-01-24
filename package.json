@@ -29,7 +29,7 @@
     "async": "^2.6.1",
     "bencevans-swarm": "0.0.0",
     "hypercore-archiver": "^4.6.0",
-    "ts-node": "^7.0.1",
+    "ts-node": "^8.0.0",
     "typescript": "^3.2.2"
   }
 }
